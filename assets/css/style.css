@@ -315,6 +315,12 @@ footer {
 	}
 }
 
+video {
+  /* override other styles to make responsive */
+  width: 100%    !important;
+  height: auto   !important;
+}
+
 @media (max-width: 1098px) {
 	.container {
 		width: 90%;
